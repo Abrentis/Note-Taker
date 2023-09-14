@@ -10,7 +10,11 @@ Here is a preview of what the website looks like: https://serene-retreat-50515-b
 
 ![Note taker homepage](./Assets/note-taker-homepage.jpg)
 
-After clicking get started, the user can begin making notes. After giving a note a title and description, the user can save that note by clicking the 'save' icon in the top right of the website, and their saved notes can be found within the column on the left.
+Here is what the note-taking page looks like after clicking "Get Started:"
+
+![Note taker note-taking page](./Assets/notes-page.jpg)
+
+After giving a note a title and description, the user can save that note by clicking the 'save' icon in the top right of the website, and their saved notes can be found within the column on the left.
 
 ![Save icon](./Assets/save-icon.jpg)
 
