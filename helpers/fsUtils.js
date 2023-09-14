@@ -1,3 +1,4 @@
+//fs module used to store and retrieve notes from 'notes.json'
 const fs = require('fs');
 const util = require('util');
 

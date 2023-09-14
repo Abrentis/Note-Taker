@@ -6,10 +6,13 @@ const {
     writeToFile,
 } = require('../helpers/fsUtils');
 
+// ---> /api/notes
+// Handles GET request in public/assets/js/index.js
 db.get('/', (req, res) => {
     readFromFile('./db/notes.json').then((data) => res.json(JSON.parse(data)));
 });
 
+// ---> /api/notes/:id
 db.delete('/:id', (req, res) => {
     const noteId = req.params.id;
     readFromFile('./db/notes.json')
@@ -21,6 +24,8 @@ db.delete('/:id', (req, res) => {
         });
 });
 
+// ---> /api/notes
+// Handles POST request in public/assets/js/index.js
 db.post('/', (req, res) => {
     console.log(req.body);
     const { title, text } = req.body;
